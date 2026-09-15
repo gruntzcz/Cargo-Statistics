@@ -8,7 +8,7 @@ class CargoStatsInfo extends GSInfo
     function CreateInstance()  { return "CargoStats"; }
     function GetShortName()    { return "CSTS"; }
     function GetAPIVersion()   { return "1.10"; }
-    function GetUrl()          { return ""; }
+    function GetUrl()          { return "https://github.com/gruntzcz/Cargo-Statistics"; }
 }
 
 RegisterGS(CargoStatsInfo());
